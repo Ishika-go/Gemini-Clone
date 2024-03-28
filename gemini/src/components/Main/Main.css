@@ -3,6 +3,8 @@
   min-height: 100vh;
   padding-bottom: 15vh;
   position: relative;
+  /* min-width: 100vw; */
+  background-color: #ff5546;
 }
 
 .main .nav {
@@ -142,6 +144,7 @@
   align-items: start;
   gap: 20px;
 }
+
 .loader {
   width: 100%;
   display: flex;
@@ -182,9 +185,10 @@
     width: 20px;
   }
   .search-box {
+    /* width: 280px; */
     padding: 5px 10px;
   }
-  .search-box div {
+  .search-box div{
     gap: 5px;
   }
 }
